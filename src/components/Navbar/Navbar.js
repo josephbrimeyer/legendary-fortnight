@@ -1,11 +1,11 @@
-import React from 'react';
-import { Navbar, Container } from 'react-bootstrap';
-import Index from './Index.css';
+import React from "react";
+import { Navbar, Container } from "react-bootstrap";
+import Index from "./Index.css";
 
 function Nav() {
-    return (
-        <div className='navbar'>
-        <Navbar>
+  return (
+    <div className="navbar">
+      <Navbar>
         <Container>
           <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
           <Navbar.Toggle />
@@ -16,8 +16,8 @@ function Nav() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      </div>
-    )
+    </div>
+  );
 }
 
 export default Nav;
