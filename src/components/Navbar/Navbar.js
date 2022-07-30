@@ -7,13 +7,13 @@ function Nav() {
     <div className="navbar">
       <Navbar>
         <Container>
-          <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
-          <Navbar.Toggle />
-          <Navbar.Collapse className="justify-content-end">
+          <Navbar.Brand href="#home">Weather Dashboard</Navbar.Brand>
+          {/* <Navbar.Toggle /> */}
+          {/* <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              Signed in as: <a href="#login">Mark Otto</a>
+              Signed in as: <a href="#login">Jason Charley</a>
             </Navbar.Text>
-          </Navbar.Collapse>
+          </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </div>

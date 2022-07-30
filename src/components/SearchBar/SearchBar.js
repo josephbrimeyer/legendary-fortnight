@@ -1,8 +1,9 @@
 import React from "react";
+import Index from "./Index.css";
 
 function SearchBar() {
   return (
-    <div>
+    <div className="searchBar">
       <input placeholder="Search for a City" />
     </div>
   );
